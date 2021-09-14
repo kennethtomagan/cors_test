@@ -2,8 +2,8 @@
   <div id="app">
     <h1 class="title">Felix CORS TEST</h1>
     <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" id="url" name="firstname" placeholder="Your" v-model="data.url">
+        <label for="url"><b>Enter URL</b></label>
+        <input type="text" id="url" name="url" placeholder="URL" v-model="data.url">
         <button type="submit"  @click="submit">Login</button>
     </div>
   </div>
