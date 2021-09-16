@@ -4,7 +4,7 @@
     <div class="container">
         <label for="url"><b>Enter URL</b></label>
         <input type="text" id="url" name="url" placeholder="URL" v-model="data.url">
-        <button type="submit"  @click="submit">Login</button>
+        <button type="submit"  @click="submit">Submit</button>
     </div>
   </div>
 </template>
